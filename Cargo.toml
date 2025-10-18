@@ -1,0 +1,11 @@
+[package]
+name = "ios_app_observer"
+version = "0.1.0"
+edition = "2024"
+repository = "https://github.com/ThierryBerger/ios_app_observer"
+license = "MIT OR Apache-2.0"
+description = "Observe iOS `UIApplication`."
+
+[target.'cfg(target_os = "ios")'.dependencies]
+block2 = "0.6.2"
+objc2-foundation = "0.3.1"
